@@ -3,16 +3,16 @@
     "path": "~/Desktop/git/Tutorial5/.gitignore",
     "project_path": ".gitignore",
     "type": "gitignore",
-    "hash": "4006125282",
+    "hash": "0",
     "contents": "",
-    "dirty": false,
+    "dirty": true,
     "created": 1617440733367.0,
     "source_on_save": false,
     "relative_order": 3,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "0,5",
+        "cursorPosition": "0,0",
         "scrollLine": "0"
     },
     "folds": "",
@@ -20,7 +20,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1617440752481,
+    "last_content_update": 1617440879786,
     "read_only": false,
     "read_only_alternatives": []
 }
