@@ -1,8 +1,26 @@
 ---
-Title: Learning to rebase
-Author: Siyi Li
-Date: "`r Sys.Date()`"
+title: Learning to rebase
+author: Siyi Li
+date: "`r Sys.Date()`"
 output: 
-  bookdown::html_document2
+    bookdown::html_document2
 keep_md: true
 ---
+
+
+```{r}
+# Libraries
+library(tidyverse)
+library(COVID19)
+```
+
+
+
+```{r}
+# Examining situation in USA
+covid_us <- covid19("USA", level = 2)
+ggplot(covid_us, aes(x = date , y = confirmed)) +
+geom_line() +
+facet_wrap(~id)
+```
+
