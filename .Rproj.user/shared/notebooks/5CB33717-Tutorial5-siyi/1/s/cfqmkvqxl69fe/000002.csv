@@ -1,0 +1,2 @@
+"0","# Examining situation in USA"
+"0","covid_us <- covid19(""USA"", level = 2)"
